@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-2">{{increment$ | async }}</div>
+  </div>
+</div>
+<div>
+  <button class="btn btn-primary m-2" type="button" (click)="increment()">
+    Increment
+  </button>
+  <button class="btn btn-primary m-2" type="button" (click)="decrement()">
+    Decrement
+  </button>
+</div>
